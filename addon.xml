@@ -6,7 +6,7 @@
   <requires>
     <import addon="xbmc.metadata" version="2.1.0"/>
   </requires>
-  <extension point="xbmc.metadata.scraper.movies"
+  <extension point="xbmc.metadata.scraper.musicvideos"
              library="scrape_filename.py" />
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Filename-only Scraper</summary>
