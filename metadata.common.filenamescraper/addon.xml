@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="metadata.common.filenamescraper"
        name="Filename-only Scraper"
-       version="0.0.1"
+       version="0.0.1+matrix.1"
        provider-name="chaosgrid">
   <requires>
     <import addon="xbmc.metadata" version="2.1.0"/>
+    <import addon="xbmc.python" version="3.0.0"/>
   </requires>
   <extension point="xbmc.metadata.scraper.movies"
+             library="scrape_filename.py" />
+  <extension point="xbmc.metadata.scraper.musicvideos"
              library="scrape_filename.py" />
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Filename-only Scraper</summary>
